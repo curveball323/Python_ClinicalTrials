@@ -22,8 +22,6 @@ center_align = Alignment(horizontal='center')
 
 #Header_Footer
 sheet.header_footer.center_header.text = str(studyno)
-#sheet.HeaderFooter.center_header.font_size = 18
-#sheet.HeaderFooter.center_header.text = str(studyno)
 
 sheet.column_dimensions['A'].width = 30.0
 sheet['A1']="Randomized Subjects"
